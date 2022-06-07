@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_Comidas"
+            android:title="Comidas"
+            android:icon="@drawable/ic_baseline_fastfood_24">
+        </item>
+        <item
+            android:id="@+id/menu_Historial"
+            android:title="Historial"
+            android:icon="@drawable/ic_baseline_food_bank_24">
+        </item>
+        <item
+            android:id="@+id/menu_Asistencia"
+            android:title="Asistencia"
+            android:icon="@drawable/ic_baseline_assessment_24">
+        </item>
+    </group>
+    <item android:title="Otras opciones">
+        <menu>
+            <item
+                android:title="Configuración"
+                android:id="@+id/menu_configuraciones"
+                android:icon="@drawable/ic_baseline_build_circle_24">
+            </item>
+        </menu>
+    </item>
+</menu>
